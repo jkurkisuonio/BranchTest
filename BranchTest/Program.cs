@@ -11,7 +11,15 @@ namespace BranchTest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world.");
+
+            Console.WriteLine("We're now on branch2");
             Console.ReadKey();
+            NewMethod();
+        }
+
+        private static void NewMethod()
+        {
+            ClassOnSecondBrandch class2 = new ClassOnSecondBrandch();
         }
     }
 }
