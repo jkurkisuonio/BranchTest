@@ -20,6 +20,7 @@ namespace BranchTest
         private static void NewMethod()
         {
             ClassOnSecondBrandch class2 = new ClassOnSecondBrandch();
+            ClassOnSecondBrandch class3 = new ClassOnSecondBrandch();
         }
     }
 }
